@@ -15,4 +15,4 @@ COPY . .
 RUN yarn build
 
 EXPOSE 3000
-CMD [ "yarn", "run", "serve" ]
+CMD [ "yarn", "build" ]
